@@ -7,3 +7,7 @@ export const logStars = function(message) {
   console.info(message);
   console.info('**********');
 };
+
+export default {
+  port: env.PORT || 8080
+};
